@@ -1,0 +1,36 @@
+Copy code
+label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+select {
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 0 5px #ccc;
+  padding: 10px;
+  font-size: 14px;
+  color: #555;
+  width: 200px;
+  height: 40px;
+  background: #fff;
+  appearance: none; 
+  margin-bottom: 20px;
+}
+
+
+select:hover {
+  box-shadow: 0 0 10px #aaa;
+}
+
+select:focus {
+  outline: none;
+  box-shadow: 0 0 10px #555;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+  margin-bottom: 10px;
+}
